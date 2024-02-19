@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../vector/vector.h
+vector/vector.inl
+-
+
+../vector/vector.inl
+
+/home/bbs/code/leetcode/clion/main.cpp
+bits/stdc++.h
+-
+vector/vector.h
+-
+
