@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/bbs/code/leetcode/clion/. 
+CXX_INCLUDES = -I/home/bbs/code/cpp/learncpp/. 
 

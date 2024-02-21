@@ -1,0 +1,95 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "clion_leetcode",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "88::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-88-Debug-aad24e30e610654501ea.json",
+					"name" : "88",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DesginModle::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DesginModle-Debug-84024023814c70243056.json",
+					"name" : "DesginModle",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "add::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-add-Debug-ab372cf3e90ea7de9125.json",
+					"name" : "add",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test-Debug-aae65feb7955c4f29498.json",
+					"name" : "test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "threadpool::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-threadpool-Debug-6e1d81ca4c3a4bd9ff1a.json",
+					"name" : "threadpool",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/bbs/code/cpp/learncpp/cmake-build-debug",
+		"source" : "/home/bbs/code/cpp/learncpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

@@ -1,4 +1,4 @@
-# Install script for directory: /home/bbs/code/leetcode/clion
+# Install script for directory: /home/bbs/code/cpp/learncpp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/bbs/code/leetcode/clion/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/bbs/code/cpp/learncpp/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

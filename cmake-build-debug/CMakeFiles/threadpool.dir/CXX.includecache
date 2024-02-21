@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../threadpool/threadpool.h
+pthread.h
+-
+list
+-
+queue
+-
+iostream
+-
+
+/home/bbs/code/cpp/learncpp/threadpool/main.cpp
+threadpool/threadpool.h
+-
+
