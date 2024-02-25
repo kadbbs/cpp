@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../list/list.h
+iostream
+-
+list
+-
+algorithm
+-
+string
+-
+list/list.inl
+-
+
+../list/list.inl
+iostream
+-
+
+/home/bbs/code/cpp/learncpp/list/list_main.cpp
+string
+-
+list
+-
+iostream
+-
+list/list.h
+-
+

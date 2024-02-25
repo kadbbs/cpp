@@ -57,27 +57,27 @@ include CMakeFiles/list.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/list.dir/flags.make
 
-CMakeFiles/list.dir/list/list.cpp.o: CMakeFiles/list.dir/flags.make
-CMakeFiles/list.dir/list/list.cpp.o: ../list/list.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bbs/code/cpp/learncpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/list.dir/list/list.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/list.dir/list/list.cpp.o -c /home/bbs/code/cpp/learncpp/list/list.cpp
+CMakeFiles/list.dir/list/list_main.cpp.o: CMakeFiles/list.dir/flags.make
+CMakeFiles/list.dir/list/list_main.cpp.o: ../list/list_main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bbs/code/cpp/learncpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/list.dir/list/list_main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/list.dir/list/list_main.cpp.o -c /home/bbs/code/cpp/learncpp/list/list_main.cpp
 
-CMakeFiles/list.dir/list/list.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/list.dir/list/list.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bbs/code/cpp/learncpp/list/list.cpp > CMakeFiles/list.dir/list/list.cpp.i
+CMakeFiles/list.dir/list/list_main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/list.dir/list/list_main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bbs/code/cpp/learncpp/list/list_main.cpp > CMakeFiles/list.dir/list/list_main.cpp.i
 
-CMakeFiles/list.dir/list/list.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/list.dir/list/list.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bbs/code/cpp/learncpp/list/list.cpp -o CMakeFiles/list.dir/list/list.cpp.s
+CMakeFiles/list.dir/list/list_main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/list.dir/list/list_main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bbs/code/cpp/learncpp/list/list_main.cpp -o CMakeFiles/list.dir/list/list_main.cpp.s
 
 # Object files for target list
 list_OBJECTS = \
-"CMakeFiles/list.dir/list/list.cpp.o"
+"CMakeFiles/list.dir/list/list_main.cpp.o"
 
 # External object files for target list
 list_EXTERNAL_OBJECTS =
 
-list: CMakeFiles/list.dir/list/list.cpp.o
+list: CMakeFiles/list.dir/list/list_main.cpp.o
 list: CMakeFiles/list.dir/build.make
 list: CMakeFiles/list.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bbs/code/cpp/learncpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable list"

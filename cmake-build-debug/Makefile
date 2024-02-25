@@ -188,32 +188,32 @@ test/fast:
 	$(MAKE) -f CMakeFiles/88.dir/build.make CMakeFiles/88.dir/build
 .PHONY : 88/fast
 
-list/list.o: list/list.cpp.o
+list/list_main.o: list/list_main.cpp.o
 
-.PHONY : list/list.o
+.PHONY : list/list_main.o
 
 # target to build an object file
-list/list.cpp.o:
-	$(MAKE) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/list/list.cpp.o
-.PHONY : list/list.cpp.o
+list/list_main.cpp.o:
+	$(MAKE) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/list/list_main.cpp.o
+.PHONY : list/list_main.cpp.o
 
-list/list.i: list/list.cpp.i
+list/list_main.i: list/list_main.cpp.i
 
-.PHONY : list/list.i
+.PHONY : list/list_main.i
 
 # target to preprocess a source file
-list/list.cpp.i:
-	$(MAKE) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/list/list.cpp.i
-.PHONY : list/list.cpp.i
+list/list_main.cpp.i:
+	$(MAKE) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/list/list_main.cpp.i
+.PHONY : list/list_main.cpp.i
 
-list/list.s: list/list.cpp.s
+list/list_main.s: list/list_main.cpp.s
 
-.PHONY : list/list.s
+.PHONY : list/list_main.s
 
 # target to generate assembly for a file
-list/list.cpp.s:
-	$(MAKE) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/list/list.cpp.s
-.PHONY : list/list.cpp.s
+list/list_main.cpp.s:
+	$(MAKE) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/list/list_main.cpp.s
+.PHONY : list/list_main.cpp.s
 
 main.o: main.cpp.o
 
@@ -343,9 +343,9 @@ help:
 	@echo "... threadpool"
 	@echo "... test"
 	@echo "... 88"
-	@echo "... list/list.o"
-	@echo "... list/list.i"
-	@echo "... list/list.s"
+	@echo "... list/list_main.o"
+	@echo "... list/list_main.i"
+	@echo "... list/list_main.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

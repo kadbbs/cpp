@@ -93,6 +93,13 @@
 			[
 				0
 			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1
+			]
 		}
 	],
 	"sources" : 
@@ -100,8 +107,13 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "list/list.cpp",
+			"path" : "list/list_main.cpp",
 			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "list/list.inl",
+			"sourceGroupIndex" : 1
 		}
 	],
 	"type" : "EXECUTABLE"
