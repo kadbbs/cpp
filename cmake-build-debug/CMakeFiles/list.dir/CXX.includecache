@@ -15,12 +15,16 @@ algorithm
 -
 string
 -
+list/listnode.h
+-
 list/list.inl
 -
 
 ../list/list.inl
 iostream
 -
+
+../list/listnode.h
 
 /home/bbs/code/cpp/learncpp/list/list_main.cpp
 string

@@ -1,1 +1,1 @@
-/usr/bin/g++ -g CMakeFiles/threadpool.dir/threadpool/threadpool.cpp.o CMakeFiles/threadpool.dir/threadpool/main.cpp.o -o threadpool  -lpthread 
+/usr/bin/c++  -g   CMakeFiles/threadpool.dir/threadpool/threadpool.cpp.o CMakeFiles/threadpool.dir/threadpool/main.cpp.o  -o threadpool  -lpthread 

@@ -21,6 +21,9 @@ int main(){
     mylist_string.pop_front();
     std::cout<<"list first element = "<<*mylist_string.begin()<<std::endl;
 
+    mylist_string.pop_front();
+    std::cout<<"list first element = "<<mylist_string.front()<<std::endl;
+
     m_std::m_list<int> myll;
 
 
