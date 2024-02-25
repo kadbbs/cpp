@@ -17,256 +17,6 @@
 					<DistClean command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/home/bbs/code/cpp/learncpp/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="list">
-				<Option output="/home/bbs/code/cpp/learncpp/cmake-build-debug/list" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/bbs/code/cpp/learncpp/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/bbs/code/cpp/learncpp/."/>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 list"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="list/fast">
-				<Option output="/home/bbs/code/cpp/learncpp/cmake-build-debug/list" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/bbs/code/cpp/learncpp/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/bbs/code/cpp/learncpp/."/>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 list/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="DesginModle">
-				<Option output="/home/bbs/code/cpp/learncpp/cmake-build-debug/DesginModle" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/bbs/code/cpp/learncpp/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/bbs/code/cpp/learncpp/."/>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 DesginModle"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="DesginModle/fast">
-				<Option output="/home/bbs/code/cpp/learncpp/cmake-build-debug/DesginModle" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/bbs/code/cpp/learncpp/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/bbs/code/cpp/learncpp/."/>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 DesginModle/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="add">
-				<Option output="/home/bbs/code/cpp/learncpp/cmake-build-debug/add" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/bbs/code/cpp/learncpp/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/bbs/code/cpp/learncpp/."/>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 add"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="add/fast">
-				<Option output="/home/bbs/code/cpp/learncpp/cmake-build-debug/add" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/bbs/code/cpp/learncpp/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/bbs/code/cpp/learncpp/."/>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 add/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/home/bbs/code/cpp/learncpp/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="threadpool">
-				<Option output="/home/bbs/code/cpp/learncpp/cmake-build-debug/threadpool" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/bbs/code/cpp/learncpp/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/bbs/code/cpp/learncpp/."/>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 threadpool"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="threadpool/fast">
-				<Option output="/home/bbs/code/cpp/learncpp/cmake-build-debug/threadpool" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/bbs/code/cpp/learncpp/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/bbs/code/cpp/learncpp/."/>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 threadpool/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="test">
-				<Option output="/home/bbs/code/cpp/learncpp/cmake-build-debug/test" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/bbs/code/cpp/learncpp/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/bbs/code/cpp/learncpp/."/>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="test/fast">
-				<Option output="/home/bbs/code/cpp/learncpp/cmake-build-debug/test" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/bbs/code/cpp/learncpp/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/bbs/code/cpp/learncpp/."/>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 test/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="88">
 				<Option output="/home/bbs/code/cpp/learncpp/cmake-build-debug/88" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/bbs/code/cpp/learncpp/cmake-build-debug"/>
@@ -275,6 +25,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/home/bbs/code/cpp/learncpp/."/>
+					<Add directory="."/>
 					<Add directory="/usr/include/c++/9"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
 					<Add directory="/usr/include/c++/9/backward"/>
@@ -298,6 +49,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/home/bbs/code/cpp/learncpp/."/>
+					<Add directory="."/>
 					<Add directory="/usr/include/c++/9"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
 					<Add directory="/usr/include/c++/9/backward"/>
@@ -308,6 +60,266 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 88/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option output="/home/bbs/code/cpp/learncpp/cmake-build-debug/test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/bbs/code/cpp/learncpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/bbs/code/cpp/learncpp/."/>
+					<Add directory="."/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test/fast">
+				<Option output="/home/bbs/code/cpp/learncpp/cmake-build-debug/test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/bbs/code/cpp/learncpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/bbs/code/cpp/learncpp/."/>
+					<Add directory="."/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 test/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="add">
+				<Option output="/home/bbs/code/cpp/learncpp/cmake-build-debug/add" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/bbs/code/cpp/learncpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/bbs/code/cpp/learncpp/."/>
+					<Add directory="."/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 add"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="add/fast">
+				<Option output="/home/bbs/code/cpp/learncpp/cmake-build-debug/add" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/bbs/code/cpp/learncpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/bbs/code/cpp/learncpp/."/>
+					<Add directory="."/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 add/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list">
+				<Option output="/home/bbs/code/cpp/learncpp/cmake-build-debug/list" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/bbs/code/cpp/learncpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/bbs/code/cpp/learncpp/."/>
+					<Add directory="."/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 list"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list/fast">
+				<Option output="/home/bbs/code/cpp/learncpp/cmake-build-debug/list" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/bbs/code/cpp/learncpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/bbs/code/cpp/learncpp/."/>
+					<Add directory="."/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 list/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="threadpool">
+				<Option output="/home/bbs/code/cpp/learncpp/cmake-build-debug/threadpool" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/bbs/code/cpp/learncpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/bbs/code/cpp/learncpp/."/>
+					<Add directory="."/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 threadpool"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="threadpool/fast">
+				<Option output="/home/bbs/code/cpp/learncpp/cmake-build-debug/threadpool" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/bbs/code/cpp/learncpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/bbs/code/cpp/learncpp/."/>
+					<Add directory="."/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 threadpool/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DesginModle">
+				<Option output="/home/bbs/code/cpp/learncpp/cmake-build-debug/DesginModle" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/bbs/code/cpp/learncpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/bbs/code/cpp/learncpp/."/>
+					<Add directory="."/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 DesginModle"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DesginModle/fast">
+				<Option output="/home/bbs/code/cpp/learncpp/cmake-build-debug/DesginModle" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/bbs/code/cpp/learncpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/bbs/code/cpp/learncpp/."/>
+					<Add directory="."/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 DesginModle/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/bbs/code/cpp/learncpp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/bbs/code/cpp/learncpp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
 					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j12 -f &quot;/home/bbs/code/cpp/learncpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -324,31 +336,31 @@
 			<Option target="88"/>
 		</Unit>
 		<Unit filename="/home/bbs/code/cpp/learncpp/test_main.cpp">
-			<Option target="add"/>
 			<Option target="test"/>
+			<Option target="add"/>
 		</Unit>
 		<Unit filename="/home/bbs/code/cpp/learncpp/threadpool/main.cpp">
 			<Option target="threadpool"/>
 		</Unit>
 		<Unit filename="/home/bbs/code/cpp/learncpp/threadpool/threadpool.cpp">
-			<Option target="DesginModle"/>
 			<Option target="threadpool"/>
+			<Option target="DesginModle"/>
 		</Unit>
 		<Unit filename="/home/bbs/code/cpp/learncpp/threadpool/threadpool.h">
-			<Option target="DesginModle"/>
 			<Option target="threadpool"/>
+			<Option target="DesginModle"/>
 		</Unit>
 		<Unit filename="/home/bbs/code/cpp/learncpp/vector/vector.h">
+			<Option target="88"/>
+			<Option target="test"/>
 			<Option target="add"/>
 			<Option target="threadpool"/>
-			<Option target="test"/>
-			<Option target="88"/>
 		</Unit>
 		<Unit filename="/home/bbs/code/cpp/learncpp/vector/vector.inl">
+			<Option target="88"/>
+			<Option target="test"/>
 			<Option target="add"/>
 			<Option target="threadpool"/>
-			<Option target="test"/>
-			<Option target="88"/>
 		</Unit>
 		<Unit filename="/home/bbs/code/cpp/learncpp/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

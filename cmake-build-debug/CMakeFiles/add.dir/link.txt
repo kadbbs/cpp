@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/add.dir/test_main.cpp.o  -o add 
+/usr/bin/g++ -g CMakeFiles/add.dir/test_main.cpp.o -o add 

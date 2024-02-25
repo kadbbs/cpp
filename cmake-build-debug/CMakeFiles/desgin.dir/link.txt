@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/desgin.dir/threadpool/threadpool.cpp.o  -o desgin 
