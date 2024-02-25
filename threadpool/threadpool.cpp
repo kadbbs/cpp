@@ -3,6 +3,8 @@
 //
 #include <threadpool/threadpool.h>
 #include <pthread.h>
+#include <unistd.h>
+
 threadpool::threadpool(int min,int max){
     minnum=min;
     maxnum=max;
@@ -14,7 +16,6 @@ threadpool::threadpool(int min,int max){
     pthread_mutex_init(&busy_mutex,NULL)!=0||
     pthread_cond_init(&notfull,NULL)!=0||
     pthread_cond_init(&notempty,NULL)!=0
-
     ){
         std::cout<<"mutex or condition init fail..."<<std::endl;
         return ;
@@ -100,9 +101,24 @@ void *threadpool::work(void *arg){
 
 }
 void *threadpool::manager(void *arg){
-    threadpool* tt=static_cast<threadpool*>(arg);
+    threadpool* pool=static_cast<threadpool*>(arg);
+
+//    while(!pool->shutdown){
+//        sleep(5);
+//
+//        //取出线程池中的任务数和线程数
+//        pthread_mutex_lock(&pool->pool_mutex);
+//        int queuenum=pool->taskQ.size();
+//        int livenum=pool->livenum;
+//        int busynum=pool->busynum;
+//        pthread_mutex_unlock(&pool->pool_mutex);
 
 
+        // 当前任务个数>存活的线程数 && 存活的线程数<最大线程个数
+
+
+
+//    }
 
 
 

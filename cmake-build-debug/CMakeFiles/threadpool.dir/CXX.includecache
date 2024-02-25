@@ -16,7 +16,11 @@ queue
 iostream
 -
 
-/home/bbs/code/cpp/learncpp/threadpool/main.cpp
+/home/bbs/code/cpp/learncpp/threadpool/threadpool.cpp
 threadpool/threadpool.h
+-
+pthread.h
+-
+unistd.h
 -
 

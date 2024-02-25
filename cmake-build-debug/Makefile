@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named list
+
+# Build rule for target.
+list: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 list
+.PHONY : list
+
+# fast build rule for target.
+list/fast:
+	$(MAKE) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/build
+.PHONY : list/fast
+
+#=============================================================================
 # Target rules for targets named DesginModle
 
 # Build rule for target.
@@ -174,6 +187,33 @@ test/fast:
 88/fast:
 	$(MAKE) -f CMakeFiles/88.dir/build.make CMakeFiles/88.dir/build
 .PHONY : 88/fast
+
+list/list.o: list/list.cpp.o
+
+.PHONY : list/list.o
+
+# target to build an object file
+list/list.cpp.o:
+	$(MAKE) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/list/list.cpp.o
+.PHONY : list/list.cpp.o
+
+list/list.i: list/list.cpp.i
+
+.PHONY : list/list.i
+
+# target to preprocess a source file
+list/list.cpp.i:
+	$(MAKE) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/list/list.cpp.i
+.PHONY : list/list.cpp.i
+
+list/list.s: list/list.cpp.s
+
+.PHONY : list/list.s
+
+# target to generate assembly for a file
+list/list.cpp.s:
+	$(MAKE) -f CMakeFiles/list.dir/build.make CMakeFiles/list.dir/list/list.cpp.s
+.PHONY : list/list.cpp.s
 
 main.o: main.cpp.o
 
@@ -296,12 +336,16 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... list"
 	@echo "... DesginModle"
 	@echo "... add"
 	@echo "... edit_cache"
 	@echo "... threadpool"
 	@echo "... test"
 	@echo "... 88"
+	@echo "... list/list.o"
+	@echo "... list/list.i"
+	@echo "... list/list.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
