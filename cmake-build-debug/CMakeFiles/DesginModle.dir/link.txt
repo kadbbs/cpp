@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/DesginModle.dir/threadpool/threadpool.cpp.o  -o DesginModle 
+/usr/bin/g++ -g CMakeFiles/DesginModle.dir/threadpool/threadpool.cpp.o -o DesginModle 

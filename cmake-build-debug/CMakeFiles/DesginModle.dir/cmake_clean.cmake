@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/DesginModle.dir/threadpool/threadpool.cpp.o"
+  "CMakeFiles/DesginModle.dir/threadpool/threadpool.cpp.o.d"
   "DesginModle"
   "DesginModle.pdb"
 )
