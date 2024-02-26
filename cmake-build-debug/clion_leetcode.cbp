@@ -320,6 +320,9 @@
 		<Unit filename="/home/bbs/code/cpp/learncpp/list/list.inl">
 			<Option target="list"/>
 		</Unit>
+		<Unit filename="/home/bbs/code/cpp/learncpp/list/list_iterator.h">
+			<Option target="list"/>
+		</Unit>
 		<Unit filename="/home/bbs/code/cpp/learncpp/list/list_main.cpp">
 			<Option target="list"/>
 		</Unit>

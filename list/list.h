@@ -36,7 +36,8 @@ namespace m_std{
         void pop_front();
         void pop_back();
         int size();
-        int empty();
+        bool empty();
+        //int insert();
         node* m_head;
         node* m_tail;
         int l_size;

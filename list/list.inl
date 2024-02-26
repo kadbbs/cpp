@@ -4,7 +4,6 @@ template <typename T>
 m_std::m_list<T>::m_list(int vaule){
     l_size=0;
     l_max_size=9999;
-
 }
 
 template <typename T>
@@ -99,5 +98,9 @@ void m_std::m_list<T>::pop_back()  {
     m_tail->m_next= nullptr;
     l_size--;
 
+}
 
+template <typename T>
+bool m_std::m_list<T>::empty(){
+    return l_size==0;
 }
