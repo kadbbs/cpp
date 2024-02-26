@@ -33,8 +33,8 @@ namespace m_std{
         T&front();
         T&back();
 
-        void pup_front(T vaule);
-        void pup_back(T vaule);
+        void pop_front();
+        void pop_back();
         int size();
         int empty();
         node* m_head;

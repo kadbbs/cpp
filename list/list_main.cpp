@@ -25,6 +25,28 @@ int main(){
     std::cout<<"list first element = "<<mylist_string.front()<<std::endl;
 
     m_std::m_list<int> myll;
+    myll.push_front(1);
+    myll.push_front(2);
+    myll.push_front(3);
+    myll.push_front(4);
+    myll.push_front(5);
+    myll.push_back(9);
+
+    std::cout<<"my list size = "<<myll.size()<<std::endl;
+    myll.pop_front();
+    myll.pop_front();
+    myll.pop_back();
+
+
+    std::cout<<"my list size = "<<myll.size()<<std::endl;
+
+    std::cout<<"my list first element = "<<myll.front()<<std::endl;
+    std::cout<<"my list tail element = "<<myll.back()<<std::endl;
+    m_std::m_list<std::string> mystrlist;
+    mystrlist.push_back("1 yu");
+    mystrlist.push_back("1 yu");
+    mystrlist.push_back("1 yu");
+    std::cout<<"my list first element = "<<mystrlist.front()<<std::endl;
 
 
 }
