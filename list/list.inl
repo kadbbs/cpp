@@ -122,6 +122,4 @@ typename m_std::m_list<T>::iterator m_list<T>::end() {
     return iterator (m_tail->m_next);
 
 
-
-
 }

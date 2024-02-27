@@ -60,4 +60,6 @@ int main(){
         std::cout<<"my list  element = "<<*it<<std::endl;
 
     }
+    std::cout<<"my list element is zero?  "<<myll.empty()<<std::endl;
+
 }

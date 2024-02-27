@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named string
+
+# Build rule for target.
+string: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 string
+.PHONY : string
+
+# fast build rule for target.
+string/fast:
+	$(MAKE) -f CMakeFiles/string.dir/build.make CMakeFiles/string.dir/build
+.PHONY : string/fast
+
+#=============================================================================
 # Target rules for targets named list
 
 # Build rule for target.
@@ -242,6 +255,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/88.dir/build.make CMakeFiles/88.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+string/string_main.o: string/string_main.cpp.o
+
+.PHONY : string/string_main.o
+
+# target to build an object file
+string/string_main.cpp.o:
+	$(MAKE) -f CMakeFiles/string.dir/build.make CMakeFiles/string.dir/string/string_main.cpp.o
+.PHONY : string/string_main.cpp.o
+
+string/string_main.i: string/string_main.cpp.i
+
+.PHONY : string/string_main.i
+
+# target to preprocess a source file
+string/string_main.cpp.i:
+	$(MAKE) -f CMakeFiles/string.dir/build.make CMakeFiles/string.dir/string/string_main.cpp.i
+.PHONY : string/string_main.cpp.i
+
+string/string_main.s: string/string_main.cpp.s
+
+.PHONY : string/string_main.s
+
+# target to generate assembly for a file
+string/string_main.cpp.s:
+	$(MAKE) -f CMakeFiles/string.dir/build.make CMakeFiles/string.dir/string/string_main.cpp.s
+.PHONY : string/string_main.cpp.s
+
 test_main.o: test_main.cpp.o
 
 .PHONY : test_main.o
@@ -336,6 +376,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... string"
 	@echo "... list"
 	@echo "... DesginModle"
 	@echo "... add"
@@ -349,6 +390,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... string/string_main.o"
+	@echo "... string/string_main.i"
+	@echo "... string/string_main.s"
 	@echo "... test_main.o"
 	@echo "... test_main.i"
 	@echo "... test_main.s"
