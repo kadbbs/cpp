@@ -104,3 +104,24 @@ template <typename T>
 bool m_std::m_list<T>::empty(){
     return l_size==0;
 }
+
+template <typename T>
+typename m_std::m_list<T>::iterator m_list<T>::begin() {
+
+    return iterator (m_head);
+
+
+
+}
+template <typename T>
+typename m_std::m_list<T>::iterator m_list<T>::end() {
+
+    if(l_size==0){
+        iterator() ;
+    }
+    return iterator (m_tail->m_next);
+
+
+
+
+}

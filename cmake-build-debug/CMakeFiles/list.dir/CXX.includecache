@@ -17,11 +17,17 @@ string
 -
 list/listnode.h
 -
+list/list_iterator.h
+-
 list/list.inl
 -
 
 ../list/list.inl
 iostream
+-
+
+../list/list_iterator.h
+list/listnode.h
 -
 
 ../list/listnode.h

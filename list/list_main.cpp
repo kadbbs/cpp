@@ -44,9 +44,20 @@ int main(){
     std::cout<<"my list tail element = "<<myll.back()<<std::endl;
     m_std::m_list<std::string> mystrlist;
     mystrlist.push_back("1 yu");
+    mystrlist.push_back("5 io");
+    mystrlist.push_back("3 ui");
     mystrlist.push_back("1 yu");
-    mystrlist.push_back("1 yu");
+    mystrlist.push_back("5 io");
+    mystrlist.push_back("3 ui");
     std::cout<<"my list first element = "<<mystrlist.front()<<std::endl;
 
+    std::cout<<"----------------------------"<<std::endl;
+    for(auto it=myll.begin();it!=myll.end();++it){
+        std::cout<<"my list  element = "<<*it<<std::endl;
 
+    }
+    for(auto it=mystrlist.begin();it!=mystrlist.end();++it){
+        std::cout<<"my list  element = "<<*it<<std::endl;
+
+    }
 }
