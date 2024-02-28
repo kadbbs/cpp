@@ -61,14 +61,9 @@ namespace m_std{
             for(int i=0;i<n;i++){
                 ++it;
             }
-
-
+            return it;
 
         }
-
-
-
-    private:
         node* m_pointer;
 
 

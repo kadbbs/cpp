@@ -67,6 +67,7 @@ void m_std::m_list<T>::pop_front()  {
 
 
 
+
     if(l_size==0){
         return ;
     }else if(l_size==1){
@@ -122,4 +123,50 @@ typename m_std::m_list<T>::iterator m_list<T>::end() {
     return iterator (m_tail->m_next);
 
 
+}
+
+
+template <typename T>
+
+typename m_std::m_list<T>::iterator m_std::m_list<T>::insert(typename m_std::m_list<T>::iterator it,T value){
+
+    if(it==begin()){
+        push_front(value);
+        return iterator(m_head);
+    }else if(it==end()){
+        push_back(value);
+        return iterator(m_tail);
+    }
+
+    auto nnode = new node(value);
+    auto next=it.m_pointer;
+    auto prev=it.m_pointer->m_prev;
+    prev->m_next=nnode;
+    nnode->m_prev=prev;
+    nnode->m_next=next;
+    next->m_prev=nnode;
+    it.m_pointer=nnode;
+    l_size++;
+    return it;
+
+
+}
+template <typename T>
+
+typename m_std::m_list<T>::iterator m_std::m_list<T>::erase(typename m_std::m_list<T>::iterator it){
+    if(it==begin()){
+        pop_front();
+        return iterator(m_head);
+    }else if(it==end()){
+        pop_back();
+        return iterator(m_tail);
+    }
+
+    it.m_pointer->m_next->m_prev=it.m_pointer->m_prev;
+    it.m_pointer->m_prev->m_next=it.m_pointer->m_next;
+    auto pos=it.m_pointer->m_next;
+    delete it.m_pointer;
+    it.m_pointer=pos;
+    l_size--;
+    return it;
 }

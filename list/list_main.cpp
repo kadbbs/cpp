@@ -14,6 +14,7 @@ int main(){
     mylist_string.push_front("3:  Mike");
 
 
+
     std::cout<<"list size = "<<mylist_string.size()<<std::endl;
     std::cout<<"list max size = "<<mylist_string.max_size()<<std::endl;
     std::cout<<"list first element = "<<*mylist_string.begin()<<std::endl;
@@ -31,6 +32,9 @@ int main(){
     myll.push_front(4);
     myll.push_front(5);
     myll.push_back(9);
+    myll.insert(myll.begin()+2,6);
+    myll.erase(myll.begin()+2);
+
 
     std::cout<<"my list size = "<<myll.size()<<std::endl;
     myll.pop_front();
@@ -49,6 +53,7 @@ int main(){
     mystrlist.push_back("1 yu");
     mystrlist.push_back("5 io");
     mystrlist.push_back("3 ui");
+
     std::cout<<"my list first element = "<<mystrlist.front()<<std::endl;
 
     std::cout<<"----------------------------"<<std::endl;

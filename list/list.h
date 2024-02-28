@@ -38,7 +38,9 @@ namespace m_std{
         void pop_back();
         int size();
         bool empty();
-        //int insert();
+        iterator insert(iterator it,T value);
+        iterator erase(iterator it);
+
         iterator begin();
         iterator end();
 
